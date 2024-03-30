@@ -7,6 +7,8 @@ public class InputOutput {
         Scanner input = new Scanner(System.in);
         System.out.println("hello, what is your name?");
         String name = input.nextLine();
+        input.close();
+
         System.out.println("Hello " + name);
     }
 }
